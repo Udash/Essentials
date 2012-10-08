@@ -113,20 +113,20 @@ groups:
             permissions.*: true
             # Since we use essentials.* permission here, we can still disable commands like this
             # This is only available for essentials permissions
-            -essentials.backup: true
-            -essentials.essentials: true
-            -essentials.setspawn: true
-            -essentials.reloadall: true
+            essentials.backup: true
+            essentials.essentials: true
+            essentials.setspawn: true
+            essentials.reloadall: true
             essentials.*: true
         inheritance:
         - Moderator
     Owner:
         permissions:
             # Double negation
-            -essentials.backup: false
-            -essentials.essentials: false
-            -essentials.setspawn: false
-            -essentials.reloadall: false
+            essentials.backup: false
+            essentials.essentials: false
+            essentials.setspawn: false
+            essentials.reloadall: false
         inheritance:
         - Admin
 messages:
